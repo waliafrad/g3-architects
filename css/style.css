@@ -59,6 +59,10 @@ li{
 }
 .menu ul li a:hover{}
 
+/* banner section styles */
+.main-banner img{
+    width: 100%;
+}
 /* banner info styles */
 .banner-top-section {
 	padding: 50px 280px;
@@ -126,5 +130,51 @@ li{
     line-height: 26px;
     color: #727272;
     padding: 24px 0;
+}
+.features-description-section{
+    padding: 50px 0;
+}
+.description-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 54px;
+}
+.description-heading-part h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52.79px;
+    color: #131313;
+}
+
+.description-heading-part p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 30px 0;
+}
+.description-info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.info-items-container {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 17%);
+    border-radius: 8px;
+}
+.info-items-container .info-item h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.46px;
+    color: #131313;
+}
+
+.info-items-container .info-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
 }
 
