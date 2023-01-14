@@ -1,0 +1,130 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* common utilies */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #727272;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* nav section styles */
+.header-section{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+.nav-bar{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-logo a{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52.79px;
+    color: #131313;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+.menu ul{
+    display: flex;
+    gap: 160px;
+}
+.menu ul li{}
+.menu ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
+.menu ul li a:hover{}
+
+/* banner info styles */
+.banner-top-section {
+	padding: 50px 280px;
+}
+.info-container{
+    text-align: center;
+}
+.info-container h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75.07px;
+    color: #131313;
+}
+.info-container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 32px 0;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    padding: 21px 24px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+/* features section styles */
+.features-section {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+    padding: 50px 0;
+}
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-img{
+    width: 100%;
+}
+.features-info{}
+.features-info h2{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52.79px;
+    color: #727272;
+}
+.color-black{
+    color: #131313;
+    font-weight: 700;
+}
+.color-orange{
+    color: #FF900E;
+    font-weight: 700;
+}
+.features-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 24px 0;
+}
+
