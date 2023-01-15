@@ -287,3 +287,95 @@ li{
     text-align: center;
     margin-bottom: 216px;
 }
+.hide{
+    display: none;
+}
+
+
+/* responsive css */
+@media screen and (max-width: 576px) {
+    .nav-bar {
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu ul {
+        display: flex;
+        /* gap: 65px; */
+        flex-direction: column;
+    }
+    .menu-container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        flex-direction: column-reverse;
+    }
+    .header-section {
+        background-color: rgba(255, 144, 14, 0.1);
+        width: 100%;
+        padding: 0;
+    }
+    .feature-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 24px; */
+    }
+    .features-section {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 50px 0;
+        flex-direction: column;
+    }
+    .description-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 54px;
+    }
+    .description-image button {
+        font-weight: 700;
+        font-size: 65px;
+        padding: 20px;
+        line-height: 50px;
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .fact-heading-part {
+        width: 100%;
+    }
+    .fact-heading-part h2, .sponsore-heading-part h2 {
+        font-size: 27px;
+        font-weight: 700;
+        /* line-height: 52.79px; */
+        color: #131313;
+    }
+    .sponsore-heading-part h2 {
+        margin-bottom: 5px;
+    }
+    .facts-item-container {
+        padding: 100px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        text-align: center;
+    }
+    .info-items-container {
+        width: 60%;
+        margin: auto;
+    }
+    .description-image img{
+        width: 100%;
+    }
+    .sponsore-item {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 22px;
+    }
+    .footer-section {
+        padding: 10px;
+    }
+    }
